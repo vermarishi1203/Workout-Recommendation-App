@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@400;700&display=swap");
+:root {
+  --primary: hsl(0, 0%, 90%);
+  --secondary: hsl(0, 100%, 35%);
+}
+body {
+  background-image: url(https://trumpwallpapers.com/wp-content/uploads/Workout-Wallpaper-22-1920-x-1080.jpg);
+  background-size: 100vmax 110vh;
+  background-attachment: fixed;
+  background-color: var(--secondary);
+  background-blend-mode: multiply;
+  color: var(--primary);
+  font-family: "Rowdies", cursive;
+  text-align: center;
+  letter-spacing: 0.125rem;
+  max-width: 600px;
+  margin: auto;
+  padding: 1rem 0rem;
+}
+.heading {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 700;
+  background-color: hsl(0, 0%, 0%, 70%);
+  border-radius: 10px;
+  max-width: 600px;
+  margin: auto 1rem;
+}
+.subheading {
+  font-weight: 400;
+  letter-spacing: 0.08rem;
+  font-size: 1.125rem;
+  text-align: left;
+  padding: 1rem;
+  max-width: 600px;
+  margin: auto 1rem;
+}
+.bodyparts {
+  color: var(--primary);
+  display: inline;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  border: 2px solid var(--primary);
+  border-radius: 10px;
+  margin: 1.25rem;
+  background-color: hsl(0, 0%, 0%, 70%);
+  cursor: pointer;
+}
+.bodyparts:hover {
+  background-color: var(--secondary);
+}
+.output {
+  border-radius: 10px;
+  margin: 1rem;
+  max-width: 600px;
+  padding: 0rem 0.5rem 0.5rem 0.5rem;
+  background-color: hsl(0, 0%, 0%, 70%);
+}
+.name {
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: left;
+  margin-bottom: 0rem;
+}
+.clip {
+  width: 100%;
+  height: 50vmin;
+  border-radius: 10px;
+  border-color: hsl(0, 0%, 0%, 70%);
+  border-width: 0px;
+}
+.credits {
+  float: right;
+  margin-bottom: 3rem;
+}
+a {
+  text-decoration: none;
+  color: var(--secondary);
+  text-shadow: 2px 2px black;
+}
